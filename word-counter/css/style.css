@@ -1,0 +1,84 @@
+/* border-box, padding ja border mahuvad selle sisse automaatselt */
+* {
+    box-sizing: border-box;
+}
+
+/* kogu lehe taust soojad toonid */
+body {
+    background: linear-gradient(to bottom, #4a2714 0px, #1f120b 500px, #0d0906 1000px);
+    font-family: Arial, sans-serif;
+    color: #f5e6d3;
+    margin: 0;
+    padding: 20px;
+}
+
+
+/* samad toonid for sisukast */
+.app {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #3b261a;     /* natuke heledam  pruun */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #704728;     /* pehme pruun toon */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* pehme vari */
+}
+
+/* Pealkiri*/
+.app h1 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    color: #ffddaa;                /*  kollakas toon */
+    text-shadow: 0 0 4px #c46f2d;  /* kerge glow efekt */
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Tekstikasti label */
+.app label {
+    display: block;                  /* paneb elemendi võtma kogu rea laiuse ja alustama uuelt realt */
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #ffcd96;                /* hele oranž */
+}
+
+/* Tekstikast */
+#text {
+    width: 100%;
+    min-height: 180px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    color: #f5e6d3;                /* tekst mis tuleb kasti sisse input */
+    background-color: #2a1b12;     /* tekstikasti background */
+    border-radius: 6px;                /* ümar raam */
+    border: 1px solid #8c552e;     /* tekstikasti raam */
+    outline: none;
+}
+
+
+/* Statistika kast */
+#stat {
+    margin-top: 12px;
+    padding: 10px;
+    background-color: #2f1e14;     /* tumedam pruun background */
+    border-radius: 6px;
+    border: 1px dashed #8c552e;    /* dashed joon ümber */
+    font-size: 14px;
+    color: #f5e6d3;
+}
+
+/* Highlighted numbers */
+.highlight {
+    font-weight: bold;
+    color: #ffb86f;                /* kuldne oranž aktsent */
+}
+
+.funny-pic {
+    max-width: 100%;        /* pilt ei lähe kunagi kastist laiemaks */
+    height: auto;           /* proportsioon jääb paika */
+    display: block;         /* img muutub block elemendiks, siis margin auto paneb ta keskele */
+    margin: 0 auto 16px;    /* keskele ja alla natuke ruumi */
+    border-radius: 6px;      /* väike ümarus */
+}
+
