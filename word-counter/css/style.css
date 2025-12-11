@@ -5,7 +5,7 @@
 
 /* kogu lehe taust soojad toonid */
 body {
-    background: linear-gradient(to bottom, #4a2714 0px, #1f120b 500px, #0d0906 1000px);
+    background: linear-gradient(to bottom, #4a2714 0px, #1f120b 500px, #0d0906 1000px); /* leidsin kuidas lisada gradient efekti ja minu arust teeb tausta ägedamaks */
     font-family: Arial, sans-serif;
     color: #f5e6d3;
     margin: 0;
@@ -19,7 +19,7 @@ body {
     margin: 40px auto;
     background-color: #3b261a;     /* natuke heledam  pruun */
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px;            /* lisab ümarad nurgad */
     border: 1px solid #704728;     /* pehme pruun toon */
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); /* pehme vari */
 }
@@ -31,7 +31,7 @@ body {
     color: #ffddaa;                /*  kollakas toon */
     text-shadow: 0 0 4px #c46f2d;  /* kerge glow efekt */
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline;    /* alla joon for decoration */
 }
 
 /* Tekstikasti label */
@@ -48,12 +48,12 @@ body {
     min-height: 180px;
     padding: 10px;
     font-size: 14px;
-    font-family: inherit;
+    font-family: inherit;           /* võtab vanema elemendi fondi ja kasutab samamoodi seda */
     color: #f5e6d3;                /* tekst mis tuleb kasti sisse input */
     background-color: #2a1b12;     /* tekstikasti background */
     border-radius: 6px;                /* ümar raam */
     border: 1px solid #8c552e;     /* tekstikasti raam */
-    outline: none;
+    outline: none;                    /*eemaldab selle et raam muutub valgeks kui tekstikasti peale klikkida*/
 }
 
 
@@ -68,7 +68,7 @@ body {
     color: #f5e6d3;
 }
 
-/* Highlighted numbers */
+/* Highlighted numbers ehk siis need mis on stat kastis */
 .highlight {
     font-weight: bold;
     color: #ffb86f;                /* kuldne oranž aktsent */
@@ -81,4 +81,5 @@ body {
     margin: 0 auto 16px;    /* keskele ja alla natuke ruumi */
     border-radius: 6px;      /* väike ümarus */
 }
+
 
